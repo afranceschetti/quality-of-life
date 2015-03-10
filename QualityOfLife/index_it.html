@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Quality of Life</title>
+
+
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- 
+<link rel="stylesheet" type="text/css" href="css/mq.css"> 
+-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/logo/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/logo/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/logo/apple-touch-icon-144x144.png">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<script>
+	$(document).ready(function() {
+		init();
+	});
+</script>
+<script src="js/vendor/custom.modernizr.js"></script>
+<meta property="og:title" content="La qualita' della vita" />
+<meta property="og:image" content="/img/logo/logo256.png" />
+<meta property="og:description" content="Scopri quanto sei felice con un test da 15 secondi" />
+</head>
+<body> 
+
+	<div class="fixed" id='top-bar-container'>
+           
+		<div class="contain-to-grid-">
+			<nav class="top-bar hide-for-small fixed" style="">
+				<ul class="title-area">
+					<li class="name">
+						<h1>
+							<a href="#" id='brand'>
+								 <img id='logo-brand' src='./img/logo/logo24.png' alt='logo' >
+								 <span class='brand'>La qualit&agrave; della tua vita </span>
+							</a>
+						</h1>
+					</li>
+					
+					<li class="toggle-topbar">
+						<a href="#"></a>
+					</li>
+				</ul>
+				<section class="top-bar-section">
+					<ul class="right">
+						<li class="">
+							<a href="#" id='step-menu-1' class='step-1-color menu-step'>Le cose importanti</a>
+						</li>
+						<li class="">
+							<a href="#" id='step-menu-2' class='step-2-color menu-step'>Le gratificazioni</a>
+						</li>
+						<li class="">
+							<a href="#" id='step-menu-3' class='step-3-color menu-step'>Il tempo</a>
+						</li>
+						<li class="">
+							<a href="#" id='step-menu-4' class='step-4-color menu-step'>Il risultato</a>
+						</li>
+					</ul>
+				</section>
+			</nav>
+		</div>
+	</div>
+
+
+	<div id='page-step-0' class='page'>
+		<div id="page-intro-content">
+			<div class="row " id="page-intro-content">
+				<div class="clearfix">&nbsp;</div>
+				<div class="clearfix">&nbsp;</div>
+				
+				<div class='large-12 columns text-right'><a href="index.html" >English version</a></div>
+				<div class="large-12 columns">
+					<div id='intro-logo'>
+						<!--
+						<div id='intro-logo-1'></div>
+						<div id='intro-logo-2'></div>
+						<div id='intro-logo-3'></div>
+						<div id='intro-logo-4'></div>
+						-->
+					</div>
+					<h1>La qualit&agrave; della tua vita</h1>
+					<p>
+						<strong>Stai bene?</strong> Hai ben chiaro quali siano le <strong>cose importanti</strong> per te stesso? Riesci a <strong>dedicarci il tempo</strong> giusto? 
+					</p>
+					<p>
+						La vita &eacute; una, e passa in fretta, meglio non sprecare tempo in cose poco piacevoli. 
+						Questo test, senza pretese, vuole essere uno spunto di riflessione, un modo veloce per soffermarsi su pensieri banali, ma allo stesso tempo 
+						fondamentali per <strong>vivere una vita ricca</strong>.
+					</p>
+					<p>
+						Il test &eacute; totalmente anonimo e non viene registrato nulla, non sar&agrave; possibile recuperare un test effettuato in precedenza.
+						Alla fine del test se vorrai potrai salvarti un immagine ricordo, o condividere il risultato sul tuo profilo facebook.
+					</p>
+				</div>
+				<div class="large-12 columns" >
+					<a href="#" class="button radius alert step-button" id='step-button-1'>Inizia il test</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div  class='page' id='page-step-1'>
+		<div class='page-content'>
+			<div class='step-title'>
+				<div class="row">
+					<div class="large-12 columns">
+						<h2>Cosa &eacute; importante</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<h4 class="subheader">
+						Vari aspetti nella vita...  che grado di importanza hanno per te?
+					</h4>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="large-8 columns">
+					
+					<div class="row input-panel">
+						<div class="large-3 columns love-color" title="La tua vita sentimentale">
+							<i class="icon-heart"></i> Amore
+						</div>
+						<div class="large-5 columns">
+							<div id="love-slider-wish" class='love-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='love-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="La tua vita sentimentale, una relazione stabile, delle avventure  (ma con almeno un po  di emozioni!) ">
+							<i class='icon-question-sign'></i>
+						</span>
+							
+						</div>
+<!--  					<div class="large-2 columns input-ignore">
+							<form class="custom">
+								<label for="checkbox-ignore-love-wish" title="Questo non mi interessa">
+									<input type="checkbox" id="checkbox-ignore-love-wish" style="display: none;">
+									<span class="custom checkbox"></span>&nbsp;<i class="icon-ban-circle color-ignore"></i>
+								</label>
+							</form>
+						</div>-->	
+					</div>
+					<div class="row input-panel">
+						<div class="large-3 columns sons-color" title="La parte della tua famiglia di cui ti prendi cura...">
+							<i class="icon-puzzle-piece"></i> Figli
+						</div>
+						<div class="large-5 columns">
+							<div id="sons-slider-wish" class='sons-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='sons-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="La parte della tua famiglia di cui ti prendi cura, i figli in primo piano, ma anche cani, gatti, piante... tutti gli esseri viventi che dipendono dalle tue attenzioni">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>		
+					<div class="row input-panel">
+						<div class="large-3 columns family-color" title="La tua famiglia di origine: genitori, fratelli, nonni, zii...">
+							<i class="icon-home"></i> Parenti
+						</div>
+						<div class="large-5 columns">
+							<div id="family-slider-wish" class='family-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='family-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="La tua famiglia di origine: genitori, fratelli, nonni, zii...">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>
+					<div class="row input-panel">
+						<div class="large-3 columns friends-color" title="I tuoi amici, le persone su cui puoi contare...">
+							<i class="icon-group"></i> Amici
+						</div>
+						<div class="large-5 columns">
+							<div id="friends-slider-wish" class='friends-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='friends-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="Gli amici, le amiche, le persone con cui stai bene, le persone su cui puoi contare, e che sanno di poter contare su di te">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>		
+					<div class="row input-panel">
+						<div class="large-3 columns fun-color" title="Tutto quello che ti diverte, ...">
+							<i class="icon-smile"></i> Divertimento
+						</div>
+						<div class="large-5 columns">
+							<div id="fun-slider-wish" class='fun-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='fun-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="Quello che ti fa sorridere o ridere senza controllo">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>		
+					<div class="row input-panel">
+						<div class="large-3 columns myself-color" title="I momenti solo tuoi, relax, sport, riflessioni...">
+							<i class="icon-eye-open"></i> Me stesso
+						</div>
+						<div class="large-5 columns">
+							<div id="myself-slider-wish" class='myself-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='myself-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="Quando sei solo e vuoi stare bene, i tuoi momenti dove ti coccoli, o dove ti sfoghi: un bagno caldo, una gita in mountain bike">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>		
+					<div class="row input-panel">
+						<div class="large-3 columns work-color" title="La parte della tua vita professionale, il lavoro di per se, i colleghi, l'ambiente, la gratificazione...">
+							<i class="icon-briefcase "></i> Lavoro
+						</div>
+						<div class="large-5 columns">
+							<div id="work-slider-wish" class='work-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='work-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="Si dice che si lavora per vivere, e non si vive per lavorare, verissimo, pero' perch&eacute; non usare bene questo tempo? Si possono avere molte soddisfazioni, si possono incontrare persone interessanti, si puo' lavorare in un posto piacevole">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>		
+					<div class="row input-panel">
+						<div class="large-3 columns passion-color" title="Le cose che fai con entusiasmo: una gita in montagna, un film al cinema, un hobby...">
+							<i class="icon-rocket"></i> Passioni
+						</div>
+						<div class="large-5 columns">
+							<div id="passion-slider-wish" class='passion-slider'></div>
+						</div>
+						<div class="large-2 columns input-percent">
+							<span class='' id='passion-percent-wish'> </span> %
+						</div>
+						<div class="large-2 columns help-button">
+							<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+								title="Passioni e hobby: cinema, libri, viaggi, videogiochi">
+								<i class='icon-question-sign'></i>
+							</span>
+						</div>
+					</div>	
+				</div>
+				<div class="large-4 columns">
+					<canvas id='canvas_wish' width='320' height='320'>
+						No canvas supported
+					</canvas>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns" >
+				<a href="#" class="button radius alert step-button" id='step-button-2'>Passa alla fase 2</a>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div  class='page' id='page-step-2'>
+		<div class='step-title'>
+			<div class="row">
+				<div class="large-12 columns">
+					<h2>Di cosa sei soddisfatto</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Bene, una volta deciso cosa &eacute; importante, dimmi quanto ne sei appagato
+				</h4>
+			</div>
+		</div>		
+	
+		<div class="row">
+			<div class="large-8 columns">
+				
+				<div class="row input-panel">
+					<div class="large-3 columns love-color" title="La tua vita sentimentale, una relazione stabile, delle avventure...">
+						<i class="icon-heart"></i> Amore
+					</div>
+					<div class="large-5 columns">
+						<div id="love-slider-satisfied" class='love-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='love-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="La tua vita sentimentale, una relazione stabile, delle avventure  (ma con almeno un po  di emozioni!) ">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>
+				<div class="row input-panel">
+					<div class="large-3 columns sons-color" title="La parte della tua famiglia di cui ti prendi cura...">
+						<i class="icon-puzzle-piece"></i> Figli
+					</div>
+					<div class="large-5 columns">
+						<div id="sons-slider-satisfied" class='sons-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='sons-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="La parte della tua famiglia di cui ti prendi cura, i figli in primo piano, ma anche cani, gatti, piante... tutti gli esseri viventi che dipendono dalle tue attenzioni">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>		
+				<div class="row input-panel">
+					<div class="large-3 columns family-color" title="La tua famiglia di origine: genitori, fratelli, nonni, zii...">
+						<i class="icon-home"></i> Parenti
+					</div>
+					<div class="large-5 columns">
+						<div id="family-slider-satisfied" class='family-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='family-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="La tua famiglia di origine: genitori, fratelli, nonni, zii...">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>
+				<div class="row input-panel">
+					<div class="large-3 columns friends-color" title="I tuoi amici, le persone su cui puoi contare...">
+						<i class="icon-group"></i> Amici
+					</div>
+					<div class="large-5 columns">
+						<div id="friends-slider-satisfied" class='friends-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='friends-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="Gli amici, le amiche, le persone con cui stai bene, le persone su cui puoi contare, e che sanno di poter contare su di te">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>		
+				<div class="row input-panel">
+					<div class="large-3 columns fun-color" title="Tutto quello che ti diverte, ...">
+						<i class="icon-smile"></i> Divertimento
+					</div>
+					<div class="large-5 columns">
+						<div id="fun-slider-satisfied" class='fun-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='fun-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="Quello che ti fa sorridere o ridere senza controllo">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>		
+				<div class="row input-panel">
+					<div class="large-3 columns myself-color" title="I momenti solo tuoi, relax, sport, riflessioni...">
+						<i class="icon-eye-open"></i> Me stesso
+					</div>
+					<div class="large-5 columns">
+						<div id="myself-slider-satisfied" class='myself-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='myself-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="Quando sei solo e vuoi stare bene, i tuoi momenti dove ti coccoli, o dove ti sfoghi: un bagno caldo, una gita in mountain bike">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>		
+				<div class="row input-panel">
+					<div class="large-3 columns work-color" title="La parte della tua vita professionale, il lavoro di per se, i colleghi, l'ambiente, la gratificazione...">
+						<i class="icon-briefcase "></i> Lavoro
+					</div>
+					<div class="large-5 columns">
+						<div id="work-slider-satisfied" class='work-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='work-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="Si dice bisongna lavorare per vivere, e non si vivere per lavorare, verissimo, pero' perch&eacute; non usare bene questo tempo? Si possono avere molte soddisfazioni, si possono incontrare persone interessanti, si puo' lavorare in un posto piacevole">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>		
+				<div class="row input-panel">
+					<div class="large-3 columns passion-color" title="Le cose che fai con entusiasmo: una gita in montagna, un film al cinema, un hobby...">
+						<i class="icon-rocket"></i> Passioni
+					</div>
+					<div class="large-5 columns">
+						<div id="passion-slider-satisfied" class='passion-slider'></div>
+					</div>
+					<div class="large-2 columns input-percent">
+						<span class='' id='passion-percent-satisfied'> </span> %
+					</div>
+					<div class="large-2 columns help-button">
+						<span data-tooltip class="has-tip" data-options="disable-for-touch:true" 
+							title="Passioni e hobby: cinema, libri, viaggi, videogiochi">
+							<i class='icon-question-sign'></i>
+						</span>
+					</div>
+				</div>	
+			</div>
+			<div class="large-4 columns">
+				<canvas id='canvas_satisfied' width='320' height='320'>
+					No canvas supported
+				</canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns" >
+				<a href="#" class="button radius alert step-button" id='step-button-3'>Passa alla fase 3</a>
+			</div>
+		</div>
+	</div>
+	
+	<div  class='page' id='page-step-3'>
+		<div class='step-title'>
+			<div class="row">
+				<div class="large-12 columns">
+					<h2>Le tue giornate tipo</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Ultimo passaggio, vediamo effettivamente come è suddivisa la tua giornata
+				</h4>
+			</div>
+		</div>
+		<div class="row">
+  			<div class="large-12 columns">
+  				<p>
+  					Nella prima parte, in grigio ci sono le attivit&agrave; indispensabili a vivere: mangiare, dormire, avere uno stipendio
+  				</p>
+  				<div class="hint-panel">
+  					<p class=''>
+  						Sicuramente queste attività sono una grossa fetta del tuo tempo e non si possono evitare. 
+  						Se pero' per te rappresentano un piacere, indica le ore nella sezione  successiva, ad esempio se ci impieghi 2 ore ad andare in ufficio, 
+  						ma in quelle 2 ore leggi e ti piace, consideralo tempo dedicato a una tua passione....
+  					</p>
+  					<p>
+  						<b>Le ore nella sezione grigia non influiscono sul calcolo del risultato finale, perch&egrave; volenti o nolenti riguardano attivit&agrave; vitali. </b>
+  					</p>
+  					<p>
+  						Se per&ograve; vedi che occupano gran parte della giornata, prova a pensare se non esiste un modo di farle rientrare fra le attivit&agrave; per te importanti.
+  						Ad esempio se mangiare non &eacute; una cosa per te interessante, potresti organizzare il pranzo con gli amici, il tempo che usi per mangiare diventa cos&igrave; piacevole
+  					 </p>
+  				</div>
+  			</div>
+  		</div>
+		<div class="row">
+			<div class="large-7 columns">
+				<form class="custom">		
+	  				<fieldset>
+	 			   		<legend>Lavoro e vacanza</legend>
+	
+					        	<div class="row collapse">
+					        		<div class="small-6 columns">
+							        	<label class='inline'>Quanti giorni lavori in un anno?</label>
+					        		</div>
+					        		<div class="small-2 columns">
+					        			<input type="text" placeholder="220" value='220' id='workdays-in-year'>
+					        		</div>	
+					        	</div>
+					 </fieldset>
+				</form>
+			</div>		 
+		</div>
+	
+		<div class="row">
+			<div class="large-7 columns">
+				
+				<form class="custom">		
+	  				<fieldset>
+	 			   		<legend>La tua normale giornata lavorativa</legend>
+	
+				   		<div class="row">
+					   		<div class="large-12 columns">
+					        	<div class="row collapse">
+					        		<div class="small-4 columns">
+							        	<label class='inline'><i class='icon-cloud sleep-color'></i> <span class='label-panel'>Sonno<span class='hint'>Quante ore dormi?</span></span></label>
+					        		</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="zzz.." value='7' id='hour-workday-sleep'>
+					        		</div>
+					    			<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="small-4 columns">
+							        	<label class='inline'><i class='icon-food eat-color'></i> <span class='label-panel'>Pasti<span class='hint'>Quante ore stai a tavola?</span></span></label>
+					        		</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="gnam.." value='2' id='hour-workday-eat'>
+					        		</div>
+								</div>
+								
+					        	<div class="row collapse">
+					        		<div class="small-4 columns">
+							        	<label class='inline'>
+							        		<i class='icon-euro minwork-color' ></i> <span class='label-panel'>Lavoro
+							        		<span class='hint'>Numero <b>minimo</b> di ore di lavoro</span></span>
+							        	</label>
+					        		</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="hop hop.." value='8' id='hour-workday-minwork'>
+					        		</div>
+	    							<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+									<div class="small-4 columns">
+							        	<label class='inline'><i class='icon-plane move-color'></i> <span class='label-panel'>Spostamenti
+							        		<span class='hint'>Ore per andare al lavoro, a fare la spesa...</span></span>
+							        	</label>
+					        		</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="brum.." value='1' id='hour-workday-move'>
+					        		</div>
+								</div>
+								<hr/>
+								<h6>A cosa dedichi il resto del tempo?</h6>
+					        	<div class="row collapse input-othertime">
+					        		<div class="large-1 columns love-color" title="Ore dedicate alla tua vita sentimentale...">
+										<label class='inline love-color'>
+											<i class="icon-heart"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="smack" value='1'  id='hour-workday-love'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate alle persone di cui ti occupi...">
+										<label class='inline sons-color'>
+											<i class="icon-puzzle-piece"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="ue ue" value='1'  id='hour-workday-sons'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate alla tua famiglia di origine...">
+										<label class='inline family-color'>
+											<i class="icon-home"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="eeeh" value='0.5'   id='hour-workday-family'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate agli amici...">
+										<label class='inline friends-color'>
+											<i class="icon-group"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="ol&egrave;" value='1'   id='hour-workday-friends'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+								</div>
+					        	<div class="row collapse input-othertime">
+					        		<div class="large-1 columns " title="Ore dedicate a divertiti...">
+										<label class='inline fun-color'>
+											<i class="icon-smile"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="ah ah ah" value='1'   id='hour-workday-fun'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate a te stesso...">
+										<label class='inline myself-color'>
+											<i class="icon-eye-open"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="mmm" value='1'   id='hour-workday-myself'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate al lavoro...">
+										<label class='inline work-color'>
+											<i class="icon-briefcase"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="hop hop" value='0'   id='hour-workday-work'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+					        		<div class="large-1 columns " title="Ore dedicate alle mie passioni...">
+										<label class='inline passion-color'>
+											<i class="icon-rocket"></i>
+										</label>
+									</div>
+					        		<div class="small-1 columns">
+					        			<input type="text" placeholder="uh uh" value='0.5'   id='hour-workday-passion'>
+					        		</div>
+					        		<div class="large-1 columns " >
+										&nbsp;								
+									</div>
+								</div>
+					        	<hr/>
+								<h6>Totale delle ore: &nbsp;<span id='total-hour-workday'></span><span class='inline_error' id='total-hour-workday-message'></span></h6>
+					        	
+					      	</div>
+					    </div>
+					</fieldset>
+				</form>
+			</div>
+			<div class="large-4 columns">
+				<canvas id='canvas_workday' width='320' height='480'>
+					No canvas supported
+				</canvas>
+			</div>
+			
+		</div>
+			
+		<div class="row">
+			<div class="large-7 columns">
+				<form class="custom">		
+	  				<fieldset>
+	 			   		<legend>La tua normale giornata di vancaza</legend>
+	
+				   		<div class="large-12 columns">
+				        	<div class="row collapse">
+				        		<div class="small-4 columns">
+						        	<label class='inline'><i class='icon-cloud sleep-color'></i> <span class='label-panel'>Sonno<span class='hint'>Quante ore dormi?</span></span></label>
+				        		</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="zzz.." value='8' id='hour-holiday-sleep'>
+				        		</div>
+				    			<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="small-4 columns">
+						        	<label class='inline'><i class='icon-food eat-color'></i> <span class='label-panel'>Pasti<span class='hint'>Quante ore stai a tavola?</span></span></label>
+				        		</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="gnam.." value='3' id='hour-holiday-eat'>
+				        		</div>
+							</div>
+							
+				        	<div class="row collapse">
+				        		<div class="small-4 columns">
+						        	<label class='inline'><i class='icon-euro minwork-color' ></i> <span class='label-panel'>Lavoro<span class='hint'>Numero <b>minimo</b> di ore di lavoro</span></span></label>
+				        		</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="hop hop.." value='0' id='hour-holiday-minwork'>
+				        		</div>
+    							<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+								<div class="small-4 columns">
+						        	<label class='inline'><i class='icon-plane move-color'></i> <span class='label-panel'>Spostamenti
+						        		<span class='hint'>Ore per andare al lavoro, a fare la spesa...</span></span>
+						        	</label>
+				        		</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="brum.." value='1' id='hour-holiday-move'>
+				        		</div>
+							</div>
+							<hr/>
+							<h6>A cosa dedichi il resto del tempo?</h6>
+				        	<div class="row collapse input-othertime">
+				        		<div class="large-1 columns love-color" title="Ore dedicate alla tua vita sentimentale...">
+									<label class='inline love-color'>
+										<i class="icon-heart"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="smack" value='2'  id='hour-holiday-love'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate alle persone di cui ti occupi...">
+									<label class='inline sons-color'>
+										<i class="icon-puzzle-piece"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="ue ue" value='2'  id='hour-holiday-sons'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate alla tua famiglia di origine...">
+									<label class='inline family-color'>
+										<i class="icon-home"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="eeeh" value='1'   id='hour-holiday-family'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate agli amici...">
+									<label class='inline friends-color'>
+										<i class="icon-group"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="ol&egrave;" value='2'   id='hour-holiday-friends'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+							</div>
+				        	<div class="row collapse input-othertime">
+				        		<div class="large-1 columns " title="Ore dedicate a divertiti...">
+									<label class='inline fun-color'>
+										<i class="icon-smile"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="ah ah ah" value='1'   id='hour-holiday-fun'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate a te stesso...">
+									<label class='inline myself-color'>
+										<i class="icon-eye-open"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="mmm" value='2'   id='hour-holiday-myself'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate al lavoro...">
+									<label class='inline work-color'>
+										<i class="icon-briefcase"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="hop hop" value='0'   id='hour-holiday-work'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+				        		<div class="large-1 columns " title="Ore dedicate alle mie passioni...">
+									<label class='inline passion-color'>
+										<i class="icon-rocket"></i>
+									</label>
+								</div>
+				        		<div class="small-1 columns">
+				        			<input type="text" placeholder="uh uh" value='2'   id='hour-holiday-passion'>
+				        		</div>
+				        		<div class="large-1 columns " >
+									&nbsp;								
+								</div>
+							</div>
+				        	<hr/>
+							<h6>Totale delle ore: &nbsp;<span id='total-hour-holiday'></span><span class='inline_error' id='total-hour-holiday-message'></span></h6>
+				        	
+					    </div>
+					</fieldset>
+				</form>
+			</div>
+			<div class="large-4 columns">
+				<canvas id='canvas_holiday' width='320' height='480'>
+					No canvas supported
+				</canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns" >
+				<a href="#" class="button radius alert step-button" id='step-button-4'>Guarda il risultato</a>
+			</div>
+		</div>
+	</div>
+	<div class='page-break'>&nbsp;</div>
+	<div  class='page' id='page-step-4'>
+		<div class='step-title'>
+			<div class="row">
+				<div class="large-12 columns">
+					<h2>Abbiamo finito</h2>
+				</div>
+			</div>
+		</div>
+		<div id='result-error-message-container'>
+			<div class="row">
+				<div class="large-12 columns">
+					&nbsp;
+				</div>
+			</div>
+			<div class="row" >
+				<div class="large-12 columns">
+					<div class="alert-box alert radius" id="result-error-message">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Il tuo indice di felicit&agrave; &eacute;...
+				</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-6 columns">
+				<p class='test-result'>
+					<span id='test-result'>8</span>
+					<span id='test-result-int' style='display: none'>8</span>
+					
+				</p>
+			</div>
+			<div class="large-6 columns">
+				<p class='test-result'>
+					<span id='test-result-icon'><i class="icon-smile"></i></span>
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Nel dettaglio vediamo se c'&eacute; qualcosa su cui si puo'migliorare
+				</h4>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-12 columns">
+				<table id='test-detail-result-table'>
+	 					<thead>
+					    <tr>
+						      <th>&nbsp;</th>
+						      <th>Tempo impiegato / Importanza<span class='hint'>Usi il tuo tempo per cose importanti?</span></th>
+						      <th>Tempo impiegato / Soddisfazione<span class='hint'>Sei soddisfatto di come usi il tuo tempo?</span></th>
+						      <th>Importanza / Soddisfazione<span class='hint'>Sei appaganto per le cose importanti ?</span></th>
+					    </tr>
+					</thead>
+					<tbody id='test-detail-result-tbody'>
+					</tbody>
+				</table>
+	
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Condividi il risultato, oppure ricomincia il test
+				</h4>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-2 columns">
+				<a href="#" class="button radius  step-button" id='share-facebook-button'>
+					<i class="icon-facebook"></i>
+				</a>
+			</div>
+			<div class="large-2 columns">
+				<a href="#" class="button radius  step-button" id='share-twitter-button'>
+					<i class="icon-twitter"></i>
+				</a>
+			</div>
+			<div class="large-2 columns">
+				<a href="#" class="button radius  step-button" id='share-google-plus-button'>
+					<i class="icon-google-plus"></i>
+				</a>
+			</div>
+			<div class="large-2 columns">
+				<a href="#" class="button radius  step-button" id='share-tumblr-button'>
+					<i class="icon-tumblr"></i>
+				</a>
+			</div>
+			<div class="large-4 columns">
+				<a href="#" id='restart' class="button radius alert step-button">Ricomincia!</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<h4 class="subheader">
+					Vieni a trovarci sulla nostra  
+					<a href='https://www.facebook.com/pages/Qualit%C3%A0-della-vita/529332707145805' target='_blank'>pagina Facebook</a>, aiutaci a migliorare il test con il tuo parere!
+				</h4>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="large-2 columns">&copy; 2013</div>
+			<div class='large-5 columns'>
+                <div class="fb-like" data-href="https://www.facebook.com/pages/Qualit%C3%A0-della-vita/529332707145805" data-width="450" data-colorscheme="dark" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+    			<div class="g-plusone"></div>
+			</div>
+			<div class="large-5 columns">
+				Realizzato con &nbsp;
+				<a  href="http://foundation.zurb.com" target='_blank'>Foundation</a>
+				&nbsp;
+				<a  href="http://fontawesome.io" target='_blank'>Font Awesome</a>
+			</div>
+	<!-- 	<div class="large-4  columns">
+				<ul class="home-social1">
+
+					<li>
+						<a  href="http://foundation.zurb.com" target='_blank'>Foundation</a>
+					</li>
+					<li>
+						<a  href="http://fontawesome.io" target='_blank'>Font Awesome</a>
+					</li>
+
+				</ul>
+			</div> -->	
+		</div>
+	</footer>
+	<script>
+		document.write('<script src='
+				+ ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery')
+				+ '.js><\/script>')
+	</script>
+
+	<script src="js/foundation.min.js"></script>
+	<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+	<!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+
+	<script>
+		$(document).foundation();
+	</script>
+	
+	<div id='fb-root'></div>
+   		<script src='https://connect.facebook.net/en_US/all.js'></script>
+		<script> 
+     		FB.init({appId: 388629004592711, status: true, cookie: true});
+     	</script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-37284545-6', 't15.org');
+	  ga('send', 'pageview');
+
+	</script>
+	
+</body>
+</html>
